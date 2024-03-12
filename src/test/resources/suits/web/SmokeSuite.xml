@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HealthCheckSuite">
+    <test name="Testes de Negócio">
+        <groups>
+            <run>
+                <include name="smokeTest" />
+            </run>
+        </groups>
+
+		<packages>
+			<package name="steps.web" />
+		</packages>
+        <classes>
+            <class name="steps.web.SearchSteps">
+                <methods>
+                    <include name="testAddCustomer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
