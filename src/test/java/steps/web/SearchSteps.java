@@ -50,7 +50,7 @@ public class SearchSteps extends Setup {
 
     @org.junit.Test
     @Order(1)
-    public void testAddCustomer() {
+    public void fazerPesquisaArtigoSucesso() {
 
         homePage.waitHomePage();
         homePage.setInputTextSearchSucess();
