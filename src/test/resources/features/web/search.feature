@@ -14,5 +14,5 @@ Funcionalidade: Search home
 
   @CenarioFalhaEsperada
   Cenario: Fazer pesquisa de artigo que não existe
-    Quando preencher o campo de pesquisa com dados aleatórios
-    Entao verificar se a pagina de pesquisa informa que não encontrou o artigo
+    Quando preencher o campo de pesquisa com dados aleatorios
+    Entao verificar se a pagina de pesquisa informa que nao encontrou o artigo

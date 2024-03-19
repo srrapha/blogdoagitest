@@ -14,7 +14,7 @@
         <classes>
             <class name="steps.web.SearchSteps">
                 <methods>
-                    <include name="testAddCustomer"/>
+                    <include name="fazerPesquisaArtigoSucesso"/>
                 </methods>
             </class>
         </classes>

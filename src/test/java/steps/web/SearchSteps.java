@@ -27,8 +27,8 @@ public class SearchSteps extends Setup {
         homePage.setInputTextSearchSucess();
     }
 
-    @Quando("preencher o campo de pesquisa com dados aleatórios")
-    public void preencher_o_campo_de_pesquisa_com_dados_aleatórios() {
+    @Quando("preencher o campo de pesquisa com dados aleatorios")
+    public void preencher_o_campo_de_pesquisa_com_dados_aleatorios() {
        homePage.setInputTextSearchFailed();
     }
     @Quando("verificar se a pagina de pesquisa foi carregada com sucesso")
@@ -36,8 +36,8 @@ public class SearchSteps extends Setup {
         articlePage.verifyFistArticle();
     }
 
-    @Entao("verificar se a pagina de pesquisa informa que não encontrou o artigo")
-    public void verificar_se_a_pagina_de_pesquisa_informa_que_não_encontrou_o_artigo() {
+    @Entao("verificar se a pagina de pesquisa informa que nao encontrou o artigo")
+    public void verificar_se_a_pagina_de_pesquisa_informa_que_nao_encontrou_o_artigo() {
         articleNotFoundPage.waitNotFoundPage();
     }
     @Entao("visualizar o conteúdo do artigo do blog")
