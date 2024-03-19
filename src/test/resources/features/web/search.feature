@@ -10,7 +10,7 @@ Funcionalidade: Search home
   Cenario: Fazer pesquisa de artigo com sucesso
     Quando preencher o campo de pesquisa
     E verificar se a pagina de pesquisa foi carregada com sucesso
-    Entao visualizar o conteúdo do artigo do blog
+    Entao visualizar o conteudo do artigo do blog
 
   @CenarioFalhaEsperada
   Cenario: Fazer pesquisa de artigo que não existe

@@ -40,8 +40,8 @@ public class SearchSteps extends Setup {
     public void verificar_se_a_pagina_de_pesquisa_informa_que_nao_encontrou_o_artigo() {
         articleNotFoundPage.waitNotFoundPage();
     }
-    @Entao("visualizar o conteúdo do artigo do blog")
-    public void visualizo_o_conteúdo_do_artigo_do_blog() {
+    @Entao("visualizar o conteudo do artigo do blog")
+    public void visualizo_o_conteudo_artigo_do_blog() {
         articlePage.intoArticleLink();
         intoArticlePage.waitArticleDescriptions();
         intoArticlePage.scrollTotalPage();
